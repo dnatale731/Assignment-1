@@ -1,72 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContactsPage</title>
-    <link rel="stylesheet" href="ContactsCSS.css">
-</head>
-<body>
-    <div class="container">
-         <div class="menu">
-             <ul>             
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Contact Info</title>
+
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>             
                 <a href = "index.html">Home</a>
-                <a href = "Contacts.html">Contact</a>
+                <a href = "contacts.html">Contact</a>
                 <a href = "about.html">About</a>
             </ul>
-         </div>
-    </div>
+        </nav>
 
-    <div class="container1">
+        <section>
+            <div>
+                <h1 class = "center">Contact Info</h1>
+                <p class = "center">1686 Delaware Avenue</p>
+                <p class = "center">San Rafael, California, 94909</p>
+                <p class = "center">Telephone: (415) 257-9328</p>
+                <p class = "center">Mobile: (415) 261-4746</p>
+            </div>
+        </section>
+
         <div>
-            <h2>
-                Contact Info
-            </h2>
-            <p>
-                <br>
-                Street: 1686 Delaware Avenue <br><br>
-    
-                City, State, Zip: San Rafael, California(CA), 94909 <br><br>
-    
-                Telephone: 415-257-9328 <br><br>
-    
-                Mobile: 415-261-4746 <br>
-            </p>
-        </div>
-
-    </div>
-
-    <div class="container1">
-
-        <form action="action_page.php">
-            <h2>
-                <br>
-                Information Request Form
-                <br> 
-                <br>
-            </h2>
-          
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-            <label for="country">Country</label>
-            <select id="country" name="country">
-             <option value="australia">Australia</option>
-             <option value="canada">Canada</option>
-             <option value="usa">USA</option>
-            </select>
-          
-             <label for="subject">Subject</label>
-             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-             <input type="submit" value="Submit">
-          
+            <form action = "action_page.php">
+                <h1 class = "center">Information Request Form</h1>
+            
+                <label for = "fname">First Name</label>
+                <input type = "text" id = "fname" name = "firstname" placeholder = "Your first name...">
+            
+                <label for = "lname">Last Name</label>
+                <input type = "text" id = "lname" name = "lastname" placeholder = "Your last name...">
+            
+                <label for = "country">Country</label>
+                <select id = "country" name = "country">
+                    <option value = "australia">Australia</option>
+                    <option value = "canada">Canada</option>
+                    <option value = "usa">USA</option>
+                </select>
+            
+                <label for = "subject">Subject</label>
+                <textarea id = "subject" name = "subject" placeholder = "Write something..." style = "height:200px"></textarea>
+            
+                <input type = "submit" value = "Submit">
             </form>
-          </div>
-
-
-</body>
+        </div>
+    </body>
 </html>
