@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #f2f2f2;
 }
 
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav {
@@ -19,6 +20,7 @@ nav {
 nav ul {
   display: inline-flex;
   margin: 25px;
+  background: #42455a;
 }
 
 nav ul a {
@@ -28,6 +30,7 @@ nav ul a {
   margin: 0 30px;
   color:rgb(182, 194, 194);
   cursor: pointer;
+  background: #42455a;
 }
 
 p {
@@ -62,11 +65,24 @@ input[type=submit]:hover {
 }
 
 .box {
-  border: 5px solid black;
+  border: 5px solid #42455a;
   padding: 5px;
   text-decoration: none;
 }
 
 .center {
+  text-align: center;
+}
+
+.image {
+  float: left;
+  padding: 0px;
+}
+
+.verticalCenter {
+  position: fixed;
+  top: 40%;
+  margin-left: 68%;
+  padding-bottom: 60px;
   text-align: center;
 }
